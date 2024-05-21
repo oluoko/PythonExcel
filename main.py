@@ -8,4 +8,4 @@ from openpyxl import Workbook, load_workbook
 book = load_workbook('menuItems.xlsx')
 sheet = book.active
 
-print(sheet)
+print(sheet["A2"].value)
