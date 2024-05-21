@@ -10,6 +10,6 @@ sheet = book.active
 
 print(sheet["A2"].value)
 
-sheet["A2"].value = "Hello World"
+sheet["A2"].value = "tortellini"
 
-book.save('menuItems.xlsx')
+book.save('new_menuItems.xlsx')
