@@ -9,3 +9,7 @@ book = load_workbook('menuItems.xlsx')
 sheet = book.active
 
 print(sheet["A2"].value)
+
+sheet["A2"].value = "Hello World"
+
+book.save('menuItems.xlsx')
